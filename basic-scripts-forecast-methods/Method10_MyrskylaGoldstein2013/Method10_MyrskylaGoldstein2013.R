@@ -2,11 +2,11 @@
 #######################################################################
 ## 'validate-forecast-methods' is a program that provides the R source code
 ## used for the calculations in the project: 
-## Bohk-Ewald, Christina, Peng Li, and Mikko Myrskylä (2017). 
+## Bohk-Ewald, Christina, Peng Li, and Mikko Myrskyl? (2017). 
 ## Assessing the accuracy of cohort fertility forecasts. 
 ## Presented in session: Statistical methods in demography 
 ## at the PAA 2017 Annual Meeting, Chicago, IL, USA, April 27-April 29, 2017. 
-## (c) Copyright 2018, Christina Bohk-Ewald, Peng Li, Mikko Myrskylä
+## (c) Copyright 2018, Christina Bohk-Ewald, Peng Li, Mikko Myrskyl?
 
 ## This program is free software: you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -381,7 +381,7 @@ Method10_MyrskylaGoldstein2013.R <- function(ASFR,
                 predASFRlowerPI95  = NA, 
                 predCASFRupperPI95 = NA,
                 predASFRupperPI95  = NA,
-                method="Myrskylä and Goldstein (2013)",
+                method="Myrskyla and Goldstein (2013)",
                 parameter=parameter,
                 label=ifelse(!is.na(parameter),paste("MG2013",paste(parameter,collapse = "_"),sep="_"),"MG2013"),
                 year=c(year1,year2,year3),
@@ -450,7 +450,7 @@ Method10_MyrskylaGoldstein2013.R <- function(ASFR,
               predASFRlowerPI95  = predASFRlowerPI95, 
               predCASFRupperPI95 = predCASFRupperPI95,
               predASFRupperPI95  = predASFRupperPI95,
-              method="Myrskylä and Goldstein (2013)",
+              method="Myrskyla and Goldstein (2013)",
               parameter=parameter,
               label=ifelse(!is.na(parameter),paste("MG2013",paste(parameter,collapse = "_"),sep="_"),"MG2013"),
               year=c(year1,year2,year3),

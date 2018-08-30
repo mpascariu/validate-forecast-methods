@@ -2,11 +2,11 @@
 #######################################################################
 ## 'validate-forecast-methods' is a program that provides the R source code
 ## used for the calculations in the project: 
-## Bohk-Ewald, Christina, Peng Li, and Mikko Myrskylä (2017). 
+## Bohk-Ewald, Christina, Peng Li, and Mikko Myrskyl? (2017). 
 ## Assessing the accuracy of cohort fertility forecasts. 
 ## Presented in session: Statistical methods in demography 
 ## at the PAA 2017 Annual Meeting, Chicago, IL, USA, April 27-April 29, 2017. 
-## (c) Copyright 2018, Christina Bohk-Ewald, Peng Li, Mikko Myrskylä
+## (c) Copyright 2018, Christina Bohk-Ewald, Peng Li, Mikko Myrskyl?
 
 ## This program is free software: you can redistribute it and/or modify
 ## it under the terms of the GNU General Public License as published by
@@ -66,7 +66,7 @@
 #### NOTE:
 #      
 #### Ref:
-#   1. Myrskylä, M., Goldstein, J.R. and Cheng, Y.H.A., 2013. New cohort fertility forecasts for the developed world: 
+#   1. Myrskyl?, M., Goldstein, J.R. and Cheng, Y.H.A., 2013. New cohort fertility forecasts for the developed world: 
 #      rises, falls, and reversals. Population and Development Review, 39(1), pp.31-56.  
 #      
 ###############################################################################
@@ -188,7 +188,7 @@ Method18_Myrskyla2013.R <- function(asfr_period_hfd,
                             predASFRlowerPI95  = predASFRlowerPI95, 
                             predCASFRupperPI95 = predCASFRupperPI95,
                             predASFRupperPI95  = predASFRupperPI95,
-                            method="Myrskylä et al. (2013)",
+                            method="Myrskyla et al. (2013)",
                             parameter=parameter,
                             label=ifelse(all(!is.na(parameter)),paste("Myrskyla2013",paste(parameter,collapse = "_"),sep="_"),"Myrskyla2013"),
                             year=c(year1,year2,year3),
